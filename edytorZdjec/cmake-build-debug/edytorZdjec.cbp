@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="edytorZdjec"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\Biblioteki\;CMake Files\..\..\..\..\..\..\Biblioteki\C++\;CMake Files\..\..\..\..\..\..\Biblioteki\C++\opencv-4.5.3\;CMake Files\..\..\..\..\..\..\Biblioteki\C++\opencv-4.5.3\build\;CMake Files\..\..\..\..\..\..\Kompilatory\;CMake Files\..\..\..\..\..\..\Kompilatory\C++\;CMake Files\..\..\..\..\..\..\Kompilatory\C++\mingw32\;CMake Files\..\..\..\..\..\..\Kompilatory\C++\mingw32\lib\;CMake Files\..\..\..\..\..\..\Kompilatory\C++\mingw32\lib\cmake\;CMake Files\..\..\..\..\..\..\Kompilatory\C++\mingw32\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edytorZdjec">
+				<Option output="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/edytorZdjec.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/build"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/core/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/flann/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/imgproc/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/ml/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/photo/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/dnn/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/features2d/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/imgcodecs/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/videoio/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/calib3d/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/highgui/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/objdetect/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/stitching/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/ts/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/video/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/gapi/include"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/include"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 edytorZdjec"/>
+					<CompileFile command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edytorZdjec/fast">
+				<Option output="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/edytorZdjec.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/build"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/core/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/flann/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/imgproc/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/ml/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/photo/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/dnn/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/features2d/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/imgcodecs/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/videoio/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/calib3d/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/highgui/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/objdetect/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/stitching/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/ts/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/video/include"/>
+					<Add directory="C:/Biblioteki/C++/opencv-4.5.3/modules/gapi/include"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/include"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Kompilatory/C++/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 edytorZdjec/fast"/>
+					<CompileFile command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Kompilatory/C++/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/main.cpp">
+			<Option target="edytorZdjec"/>
+		</Unit>
+		<Unit filename="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/../../../../../../Biblioteki/C++/opencv-4.5.3/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Biblioteki\C++\opencv-4.5.3\build\"/>
+		</Unit>
+		<Unit filename="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/../../../../../../Biblioteki/C++/opencv-4.5.3/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Biblioteki\C++\opencv-4.5.3\build\"/>
+		</Unit>
+		<Unit filename="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/../../../../../../Biblioteki/C++/opencv-4.5.3/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Biblioteki\C++\opencv-4.5.3\build\"/>
+		</Unit>
+		<Unit filename="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/../../../../../../Kompilatory/C++/mingw32/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Kompilatory\C++\mingw32\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/../../../../../../Kompilatory/C++/mingw32/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Kompilatory\C++\mingw32\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/../../../../../../Kompilatory/C++/mingw32/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Kompilatory\C++\mingw32\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/../../../../../../Kompilatory/C++/mingw32/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Kompilatory\C++\mingw32\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/../../../../../../Kompilatory/C++/mingw32/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Kompilatory\C++\mingw32\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/../../../../../../Kompilatory/C++/mingw32/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\Kompilatory\C++\mingw32\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

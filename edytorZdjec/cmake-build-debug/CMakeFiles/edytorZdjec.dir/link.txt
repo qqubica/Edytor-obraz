@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\edytorZdjec.dir/objects.a
+C:\Kompilatory\C++\mingw32\bin\ar.exe cr CMakeFiles\edytorZdjec.dir/objects.a @CMakeFiles\edytorZdjec.dir\objects1.rsp
+C:\Kompilatory\C++\mingw32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\edytorZdjec.dir/objects.a -Wl,--no-whole-archive -o edytorZdjec.exe -Wl,--out-implib,libedytorZdjec.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\edytorZdjec.dir\linklibs.rsp

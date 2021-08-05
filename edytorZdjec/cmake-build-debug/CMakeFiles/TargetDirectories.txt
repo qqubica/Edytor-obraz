@@ -1,0 +1,3 @@
+C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/CMakeFiles/edytorZdjec.dir
+C:/Users/kuba5/Documents/2 semestr studiów/PJC/edytorZdjec/cmake-build-debug/CMakeFiles/rebuild_cache.dir
